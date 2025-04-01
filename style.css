@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
@@ -25,7 +30,7 @@ body {
     margin: 10px 0px;
 }
 
-#explore {
+.buttomexplore {
 
     margin: 50px 0px;
     width: 118px;
@@ -42,7 +47,7 @@ body {
     border: none;
 }
 
-#explore:hover {
+.buttomexplore:hover {
     background-color: #252525f3;
     box-shadow: 1px 1px 7px 1px #25252569;
     transition: 0.2s;
@@ -82,54 +87,46 @@ section {
 
 .article2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-
-    margin: 0 auto;
-
-    width: 80vw;
+    justify-content: space-evenly;
+    margin: 50px auto;
 }
 
-.article2 div {
-    width: 50%;
+.article2 div:first-child {
+    text-align: left;
+    width: 500px;
+    margin: auto;
+    padding-left: 5%;
 }
 
 .article2Img {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 
-    position: relative;
-    
-    height: 500px;
+    height: 350px;
+    padding-right: 5%;
+    margin: 0 auto;
 
 }
 
 .article2Img img {
-    position: absolute;
     width: 300px;
-    height: 400px;
+    height: 300px;
+
     border-radius: 10px;
-
-
-}
-
-.article2Img img:first-child {
-    top: 0;
-    left: 0;
+    box-shadow: 1px 2px 3px 1px #25252527;
 }
 
 .article2Img img:last-child {
-    bottom: 0;
-    right: 0;
+    margin-top: 50px;
 }
+
 
 footer {
     margin-top: 50px;
 }
 
-footer p{
+footer p {
     text-align: center;
     color: #252525c2;
 }
