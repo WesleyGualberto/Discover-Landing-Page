@@ -69,7 +69,7 @@ section {
     margin: 10px 0;
 }
 
-.container img {
+.imagemeffect {
     width: 316px;
     height: 288px;
 
@@ -79,7 +79,7 @@ section {
     transition: 0.5s;
 }
 
-.container img:hover {
+.imagemeffect:hover {
     box-shadow: 1px 1px 7px 1px #25252569;
 
     transition: 0.2s;
@@ -114,7 +114,6 @@ section {
     height: 300px;
 
     border-radius: 10px;
-    box-shadow: 1px 2px 3px 1px #25252527;
 }
 
 .article2Img img:last-child {
